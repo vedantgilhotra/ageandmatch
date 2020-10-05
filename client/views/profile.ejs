@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Here you go
+        </title>
+        <body>
+            <h1>Hello <%= user %></h1>
+            <% if(user) {%>
+                <hidden style= "display:none;"><%= alertmessage %></hidden>
+              Hello <%= user %> number of matches found for you are <%= count %> <br><br>
+              <% if (count>0) { %>
+                     And they happen to be: <br>
+                     <% for (var i =0 ; i < count ; i++) {%>
+                        <p> <br> Name: <%= array[i].name %> &nbsp;&nbsp;&nbsp; Age: <%= array[i].age %> &nbsp;&nbsp;&nbsp; Gender: <%= array[i].gender %> <br> </p>
+                        <% } %>
+                    <% } %>
+            <% } %>
+
+            <script>
+                var alertmes = document.getElementsByTagName("hidden");
+                alert(alertmes[0].innerHTML);
+            </script>
+
+        </body>
+    </head>
+</html>

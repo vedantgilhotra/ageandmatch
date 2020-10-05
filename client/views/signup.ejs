@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>
+        drop in your details here
+    </title>
+</head>
+    <body class="text-center">
+        <table style="border:1px solid black;margin-left:auto;margin-right:auto;padding:20px;width:30%;">
+            <form method="post" action="/signup">
+			<h1 style="text-align:center">Enter your details below now</h1>
+            <tr>
+                <td>
+                    <label for= "name">Name</label>
+                </td>
+                <td>
+                    <input 
+                    type="text"
+                    id = "name"
+                    placeholder="Enter your name here"
+                    name = "name"
+                    required
+                    autofocus
+                    />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age</label>
+                </td>
+                <td>
+                    <input 
+                    type = "number"
+                    id = "age"
+                    placeholder="Enter your age here"
+                    name = "age"
+                    required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">
+                        Gender
+                    </label>
+                </td>
+                <td>
+                    <input
+                    type ="text"
+                    id ="gender"
+                    placeholder="Enter your gender here"
+                    name = "gender"
+                    required/>
+                </td>
+            </tr>
+            <tr>
+                <td align = "right">
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">
+                        Go find a match
+                    </button>
+                </td>
+            </tr>
+            </form>  
+        </table>
+    </body>
+</html>
