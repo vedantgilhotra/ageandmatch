@@ -1,0 +1,38 @@
+{
+  "name": "tinder_mimic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "localtunnel": "^1.9.2",
+    "mocha": "^7.0.1",
+    "morgan": "^1.10.0",
+    "sequelize": "^5.22.3",
+    "sqlite3": "^4.1.1",
+    "supertest": "^4.0.2",
+    "wget-improved": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedantgilhotra/ageandmatch.git"
+  },
+  "author": "Vedant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedantgilhotra/ageandmatch/issues"
+  },
+  "homepage": "https://github.com/vedantgilhotra/ageandmatch#readme"
+  
+}
